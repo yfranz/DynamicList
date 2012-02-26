@@ -1,4 +1,4 @@
-package com.codelines.examples.dynamiclist;
+package com.codinglines.examples.dynamiclist;
 
 import android.content.Context;
 import android.os.Handler;
@@ -6,10 +6,10 @@ import android.os.Message;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.codelines.lib.dynamiclist.AdapterItem;
-import com.codelines.lib.dynamiclist.DynamicViewAdapter;
-import com.codelines.lib.dynamiclist.ViewHolder;
-import com.codelines.examples.dynamiclist.R;
+import com.codinglines.examples.dynamiclist.R;
+import com.codinglines.lib.dynamiclist.AdapterItem;
+import com.codinglines.lib.dynamiclist.DynamicViewAdapter;
+import com.codinglines.lib.dynamiclist.ViewHolder;
 
 public class TestDynamicViewAdapter extends DynamicViewAdapter
 {

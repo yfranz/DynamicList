@@ -1,4 +1,4 @@
-package com.codelines.lib.dynamiclist;
+package com.codinglines.lib.dynamiclist;
 
 import java.util.ArrayList;
 
@@ -12,7 +12,7 @@ public abstract class DynamicViewAdapter extends BaseAdapter
 {
     protected final Context _context;
 
-    private final ArrayList<AdapterItem> _list;
+    protected final ArrayList<AdapterItem> _list;
 
     private final LayoutInflater _inflater;
 
@@ -65,7 +65,6 @@ public abstract class DynamicViewAdapter extends BaseAdapter
     {
         return position;
     }
-
     
     public View getView(int position, View convertView, ViewGroup parent)
     {
@@ -113,7 +112,7 @@ public abstract class DynamicViewAdapter extends BaseAdapter
         return result;
     }
 
-    private void tryCreateViewHolder(View viewSource, AdapterItem item, int resourceId)
+    protected void tryCreateViewHolder(View viewSource, AdapterItem item, int resourceId)
     {
         ViewHolder viewItem = (ViewHolder) viewSource.getTag();
         if (viewItem == null)

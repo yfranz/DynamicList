@@ -1,4 +1,4 @@
-package com.codelines.lib.dynamiclist;
+package com.codinglines.lib.dynamiclist;
 
 import android.view.View;
 

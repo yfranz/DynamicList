@@ -1,4 +1,4 @@
-package com.codelines.examples.dynamiclist;
+package com.codinglines.examples.dynamiclist;
 
 import android.os.AsyncTask;
 import android.os.Handler;
