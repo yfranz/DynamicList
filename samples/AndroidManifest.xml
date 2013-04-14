@@ -10,7 +10,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name="com.codinglines.examples.dynamiclist.MainActivity"
+            android:name="com.uiex.examples.dynamiclist.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,13 +19,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.codinglines.examples.dynamiclist.DynamicListActivity">
+            android:name="com.uiex.examples.dynamiclist.DynamicListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.View" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.codinglines.examples.dynamiclist.GrouppedListActivity">
+            android:name="com.uiex.examples.dynamiclist.GrouppedListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.View" />
             </intent-filter>

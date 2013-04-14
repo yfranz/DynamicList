@@ -1,11 +1,11 @@
-package com.codinglines.examples.dynamiclist;
+package com.uiex.examples.dynamiclist;
 
 import android.view.View;
 import android.widget.TextView;
 
 import com.codinglines.examples.dynamiclist.R;
-import com.codinglines.lib.dynamiclist.AdapterItem;
-import com.codinglines.lib.dynamiclist.ViewHolder;
+import com.uiex.dynamiclist.AdapterItem;
+import com.uiex.dynamiclist.ViewHolder;
 
 public class HeaderViewHolder extends ViewHolder
 {

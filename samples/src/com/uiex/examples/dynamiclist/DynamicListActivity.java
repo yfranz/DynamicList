@@ -1,4 +1,4 @@
-package com.codinglines.examples.dynamiclist;
+package com.uiex.examples.dynamiclist;
 
 import com.codinglines.examples.dynamiclist.R;
 
